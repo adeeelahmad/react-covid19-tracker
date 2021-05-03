@@ -1,0 +1,13 @@
+.spin {
+    animation: spin 0.7s linear infinite;
+}
+.mole {
+   
+    
+    border-radius: 50%;
+  }
+  @keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
